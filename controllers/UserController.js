@@ -26,7 +26,7 @@ exports.registerUser = async (req, res) => {
   } catch (error) {
     console.log(error);
     return res.status(500).send({
-      message: "Error creating patient",
+      message: "Error creating user",
       success: false,
       error,
     });
